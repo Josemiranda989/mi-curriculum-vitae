@@ -69,6 +69,15 @@ nav {
     max-width: 700px;
 }
 
+.textos_home p a {
+    text-decoration: none;
+    color:white;
+}
+
+.textos_home p a:hover {
+    color:tomato;
+}
+
 /* About Screen */
 
 .contenedor_about {
@@ -83,12 +92,14 @@ nav {
 .contenedor_img {
     display: flex;
     justify-content: center;
+
 }
 
 .contenedor_img img {
-    width: 260px;
+    width: 300px;
     height: 300px;
     border-radius: 100%;
+    object-fit:cover;
 }
 
 .about_info {
@@ -111,10 +122,20 @@ nav {
 .about_info div p {
     color: grey;
     line-height: 2rem;
+    font-size: 18px;
 }
 
 .resume_contact {
     margin-bottom: 100px;
+}
+
+.resume_contact a {
+    text-decoration: none;
+    color:rgb(141, 141, 141);
+}
+
+.resume_contact a:hover{
+    color:tomato;
 }
 
 /* Resume Screen */
@@ -162,7 +183,7 @@ nav {
 }
 
 .resume_content > h4 {
-    color: rgb(141, 141, 141);
+    color: rgb(77, 77, 77);
     font-weight: 25%;
 }
 
@@ -173,13 +194,13 @@ nav {
 }
 
 .resume_content h4 {
-    color: rgb(54, 54,54);
-    font-weight:100;
+    color: rgb(123, 123, 123);
+    font-weight:130px;
 
 }
 
 .resume_content p {
-    color: darkgray;
+    color: rgb(146, 146, 146);
     font-weight: 300;
 }
 
@@ -309,10 +330,12 @@ nav {
     }
 
     .contenedor_resume {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+            width: 90%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 2.5rem 1rem;
     }
     .resume_content {
         text-align: center;
