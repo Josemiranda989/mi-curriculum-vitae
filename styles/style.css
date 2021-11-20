@@ -113,7 +113,7 @@ nav {
 }
 
 .about_info div h2 {
-    color: white;
+    color: rgb(63,111,123);
     font-size: 30px;
     border-bottom: 1px solid whitesmoke;
     margin-bottom: 15px;
@@ -121,9 +121,10 @@ nav {
 }
 
 .about_info div p {
-    color: grey;
+    color: rgb(255, 255, 255);
     line-height: 2rem;
     font-size: 18px;
+    font-weight: 400;
 }
 
 .resume_contact {
@@ -132,11 +133,11 @@ nav {
 
 .resume_contact a {
     text-decoration: none;
-    color:rgb(141, 141, 141);
+    color: rgb(255, 255, 255);
 }
 
 .resume_contact a:hover{
-    color:tomato;
+    color:rgb(63,111,123)
 }
 
 /* Resume Screen */
@@ -262,6 +263,7 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     margin: 1rem;
+    background-color: #292929;
 }
 
 .portfolio_item {
@@ -269,12 +271,16 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     margin: 1rem;
+       height: 9rem;
+    width: 13rem;
 }
 
-.portfolio_item img {
+.portfolio_item i {
     height: 9rem;
     width: 13rem;
-    object-fit: cover;
+    font-size: 120px;
+    margin-top: 10px;
+    color: #cc9b6d;
 }
 
 .portfolio_item a {
