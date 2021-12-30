@@ -11,6 +11,7 @@ nav {
     padding: 20px;
     position: fixed;
     width: 100%;
+    z-index: 99999;
 }
 
 .options {
@@ -301,6 +302,7 @@ nav {
     justify-content: center;
     color: #cb9b6e;
     transition: opacity 0.3s ease-in;
+    width: 100%;
 }
 
 
@@ -317,16 +319,13 @@ nav {
 }
 
 .portfolio_itemOverlay:hover {
-    opacity: 0.7;
+    opacity: 0.9;
     background: rgb(54, 54,54);
 }
 
 /* Responsive */
 
 @media screen and (max-width: 1000px) {
-    .portfolio_itemOverlay:hover {
-        background: red;
-    }
 
     .contenedor_about {
         flex-direction: column;
